@@ -30,5 +30,10 @@ namespace Calculator
             txtValue1.Text = string.Empty;
             txtValue2.Text = string.Empty;
         }
+
+        private void btnSubtract_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

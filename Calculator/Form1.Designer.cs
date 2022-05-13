@@ -59,6 +59,7 @@ namespace Calculator
             this.btnSubtract.TabIndex = 2;
             this.btnSubtract.Text = "Subtract";
             this.btnSubtract.UseVisualStyleBackColor = true;
+            this.btnSubtract.Click += new System.EventHandler(this.btnSubtract_Click);
             // 
             // btnMultiply
             // 
