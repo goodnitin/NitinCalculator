@@ -33,7 +33,8 @@ namespace Calculator
 
         private void btnSubtract_Click(object sender, EventArgs e)
         {
-
+            var result = Int32.Parse(txtValue1.Text) - Int32.Parse(txtValue2.Text);
+            txtResult.Text = result.ToString();
         }
     }
 }
